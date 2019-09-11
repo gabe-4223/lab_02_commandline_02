@@ -18,7 +18,7 @@ $ echo hello
 
 Copy and paste the output below.
 ----------
-
+hello
 
 
 ==========
@@ -28,7 +28,7 @@ $ echo hello there
 
 Copy and paste the output below.
 ----------
-
+hello there
 
 
 ==========
@@ -38,7 +38,7 @@ $ echo good mornin'
 
 Copy and paste the output below.
 ----------
-
+good morning
 
 
 ==========
@@ -56,6 +56,7 @@ $ echo "good mornin'"
 
 Copy and paste the output below.
 ----------
+good morning
 
 
 
@@ -66,7 +67,7 @@ $ echo *
 
 What happens?
 ----------
-
+AMALogger20190109.log AMALogger20190308.log AMALogger20190829.log AMALogger20190903.log AMALogger20190910.log Adlm Adobe Applications Desktop Documents Downloads Library MPLABXProjects Movies Music Pictures Public QLData Things ipe.properties isus mtec1002 pymel.log xgen
 
 
 ==========
@@ -74,6 +75,7 @@ What happens?
 
 Write the command that you used below:
 ----------
+Clear
 
 
 
@@ -87,7 +89,12 @@ $ curl google.com
 
 Copy and paste the output below.
 ----------
-
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://www.google.com/">here</A>.
+</BODY></HTML>
 
 
 ==========
@@ -97,7 +104,7 @@ $ curl www.google.com
 
 Copy and paste the output below, but not the whole thing!  Just copy up to the part that has the title tags (<title>......</title>).
 ----------
-
+<!doctype html><html itemscope="" itemtype="http://schema.org/WebPage" lang="en"><head><meta content="Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking for." name="description"><meta content="noodp" name="robots"><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"><meta content="/images/branding/googleg/1x/googleg_standard_color_128dp.png" itemprop="image"><title>Google</title><script nonce="CvJLJYIO0OtsxmHlJvVhqA==">(function(){window.google={kEI:'Rn55Xc6qAaaMggeQ64bwBg',kEXPI:'0,1353747,5662,730,224,510,18,1047,2082,1069,379,206,1017,53,1431,577,2,124,10,369,263,81,338,190,42,93,214,114,
 
 
 ==========
@@ -105,6 +112,7 @@ Copy and paste the output below, but not the whole thing!  Just copy up to the p
 
 Write the command you used below.  Also copy and paste the output below.
 ----------
+curl -o
 
 
 
@@ -113,6 +121,7 @@ Write the command you used below.  Also copy and paste the output below.
 
 Write the command you used to determine your directory.  Also, copy and paste the output below.
 ----------
+curl -o/directory
 
 
 
@@ -121,6 +130,7 @@ Write the command you used to determine your directory.  Also, copy and paste th
 
 Write the command that you used to change to your home directory.  If you were already in your home directory, write the command that you *would* have used to change to it!
 ----------
+~
 
 
 
@@ -137,7 +147,7 @@ Use ls to verify that it downloaded.
 
 Write down the command that you used to download the file below.  Additionally, write the output of the command below.
 ----------
-
+curl -o/http://foureyes.github.io/mtec1002-spring2014/labs/02/mtec1002-lab-02.zip
 
 
 ==========
@@ -145,6 +155,7 @@ Write down the command that you used to download the file below.  Additionally, 
 
 Write down the command that you used to uncompress the file.
 ----------
+zip/filename/directory
 
 
 
@@ -153,6 +164,14 @@ Write down the command that you used to uncompress the file.
 
 Copy and paste the output below.
 ----------
+AMALogger20190109.log	Desktop			Public
+AMALogger20190308.log	Documents		QLData
+AMALogger20190829.log	Downloads		Things
+AMALogger20190903.log	Library			ipe.properties
+AMALogger20190910.log	MPLABXProjects		isus
+Adlm			Movies			mtec1002
+Adobe			Music			pymel.log
+Applications		Pictures		xgen
 
 
 
@@ -164,6 +183,17 @@ We're going to mess around with archiving and compressing files.  We'll make a d
 
 Copy and paste the output below.
 ----------
+Mkdir: stuff: File exists
+v120-ent-003:~ student$ ls
+AMALogger20190109.log	Documents		Things
+AMALogger20190308.log	Downloads		ipe.properties
+AMALogger20190829.log	Library			isus
+AMALogger20190903.log	MPLABXProjects		mtec1002
+AMALogger20190910.log	Movies			pymel.log
+Adlm			Music			stuff
+Adobe			Pictures		xgen
+Applications		Public
+Desktop			QLData
 
 
 
