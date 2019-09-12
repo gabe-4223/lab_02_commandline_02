@@ -218,7 +218,10 @@ List the files in the directory you're currently in (which should be home).
 
 Copy and paste the output below.
 ----------
-
+Usage:
+  List:    tar -tf <archive-filename>
+  Extract: tar -xf <archive-filename>
+  Create:  tar -cf <archive-filename> [filenames...]
 
 
 ==========
@@ -238,7 +241,14 @@ Copy and paste the output below. (It should contain stuff.tar)
 ----------
 
 
-
+AMALogger20190109.log	Documents		Things
+AMALogger20190308.log	Downloads		hello.txt
+AMALogger20190829.log	Library			ipe.properties
+AMALogger20190903.log	MPLABXProjects		isus
+AMALogger20190910.log	Movies			mtec1002
+Adlm			Music			pymel.log
+Adobe			Pictures		stuff
+Applications		Public			xgen
 ==========
 21. Now compress it!  Type:
 
